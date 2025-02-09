@@ -17,4 +17,4 @@ def permutation_of_list(l, size):
 
 if __name__ == '__main__':
 	l = ['a','b','c']
-	print(rekkyo(l, 4))
+	print(permutation_of_list(l, 4))
