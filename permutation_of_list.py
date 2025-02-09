@@ -16,5 +16,26 @@ def permutation_of_list(l, size):
 	return out_list
 
 if __name__ == '__main__':
-	l = ['a','b','c']
+	l = ['a','b']
 	print(permutation_of_list(l, 4))
+
+	"""
+ 	console output
+
+  	[['a', 'a', 'a', 'a'],
+	 ['b', 'a', 'a', 'a'],
+	 ['a', 'b', 'a', 'a'],
+	 ['b', 'b', 'a', 'a'],
+	 ['a', 'a', 'b', 'a'],
+	 ['b', 'a', 'b', 'a'],
+	 ['a', 'b', 'b', 'a'],
+	 ['b', 'b', 'b', 'a'],
+	 ['a', 'a', 'a', 'b'],
+	 ['b', 'a', 'a', 'b'],
+	 ['a', 'b', 'a', 'b'],
+	 ['b', 'b', 'a', 'b'],
+	 ['a', 'a', 'b', 'b'],
+	 ['b', 'a', 'b', 'b'],
+	 ['a', 'b', 'b', 'b'],
+	 ['b', 'b', 'b', 'b']]
+ 	"""
