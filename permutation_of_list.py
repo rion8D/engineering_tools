@@ -19,9 +19,8 @@ if __name__ == '__main__':
 	l = ['a','b']
 	print(permutation_of_list(l, 4))
 
+	# console output
 	"""
- 	console output
-
   	[['a', 'a', 'a', 'a'],
 	 ['b', 'a', 'a', 'a'],
 	 ['a', 'b', 'a', 'a'],
