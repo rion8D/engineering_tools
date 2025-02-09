@@ -1,4 +1,4 @@
-# Create permutations of size n from a given list l
+# Create permutations of size from a given list l
 def permutation_of_list(l, size):
 	n = len(l)
 	out_list = []
